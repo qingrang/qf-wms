@@ -19,7 +19,7 @@
 
 ## 安装说明
 1. 下载系统安装包
-2. 双击运行安装程序
+2. 双击运行安装程序(安装路径不包含中文字符)
 3. 按向导提示完成安装
 4. 通过桌面快捷方式启动
 
@@ -69,7 +69,7 @@
 - 增强数据可视化对比度
 
 ## 联系方式
-- 官方网站：[https://wwtm.lanzouq.com/iSOhR2qu2iyd](https://wwtm.lanzouq.com/iSOhR2qu2iyd)
+- 下载链接：[https://wwtm.lanzouq.com/iSOhR2qu2iyd](https://wwtm.lanzouq.com/iSOhR2qu2iyd)
 - 电子邮箱：fbejiate@qq.com
 
 ## 版权信息
