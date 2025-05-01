@@ -1,0 +1,5 @@
+     {
+       "version": "1.5.1",
+       "download_url": "https://lz.qaiu.top/parser?url=https://wwtm.lanzouq.com/iSOhR2qu2iyd",
+       "changelog": "1. 优化了数据库连接稳定性 \n2. 新增数据批量导入功能 \n3. 修复了库存统计显示异常问题 \n4. 提升了软件启动速度"
+     }
