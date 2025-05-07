@@ -1,0 +1,115 @@
+轻风仓储管理系统 - 第三方依赖声明
+===============================
+
+本文件列出了轻风仓储管理系统所使用的第三方库和组件，以及它们的版权和许可证信息。
+
+PySide6 (Qt for Python)
+----------------------
+版权所有 © 2025 The Qt Company Ltd.
+许可证: LGPL v3
+网址: https://wiki.qt.io/Qt_for_Python
+
+根据LGPL v3许可证，用户有权获取和替换本软件使用的PySide6组件。您可以按照以下步骤操作：
+
+1. 如何获取PySide6组件：
+   - 访问PySide6官方网站：https://wiki.qt.io/Qt_for_Python
+   - 下载与本软件使用的相同版本的PySide6（v6.8.2.1）
+   - 或者使用pip命令安装：pip install PySide6==6.8.2.1
+
+2. 如何替换PySide6组件：
+   - 在本软件的安装目录下创建一个名为"lib"的文件夹
+   - 需要复制两个文件夹到lib文件夹中：
+     * PySide6文件夹（包含Qt绑定）
+     * shiboken6文件夹（包含必要的依赖项）
+   - 这两个文件夹通常位于Python环境的site-packages目录下
+   - 请确保同时复制这两个完整的文件夹，缺少任何一个都将导致加载失败
+   - 重新启动本软件，系统将自动优先加载您提供的PySide6组件
+
+请注意：替换组件时请确保使用兼容的版本，否则可能导致软件无法正常运行。
+如果遇到问题，您可以随时删除"lib"文件夹中的这两个文件夹，软件将恢复使用内置的PySide6组件。
+
+PyMySQL
+-------
+版权所有 © 2010-2025 PyMySQL contributors
+许可证: MIT
+网址: https://github.com/PyMySQL/PyMySQL
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+openpyxl
+--------
+版权所有 © 2010-2025 openpyxl
+许可证: MIT
+网址: https://openpyxl.readthedocs.io/
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+pandas
+------
+版权所有 © 2008-2025, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+许可证: BSD 3-Clause
+网址: https://pandas.pydata.org/
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+requests
+--------
+版权所有 © 2019-2025 Kenneth Reitz
+版权所有 © 2025 Python Software Foundation
+许可证: Apache 2.0
+网址: https://requests.readthedocs.io/
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+阿里巴巴普惠体
+-----------
+版权所有 © 2025 阿里巴巴集团
+许可证: 阿里巴巴普惠体授权协议
+网址: https://fonts.alibabagroup.com/
+
+根据阿里巴巴普惠体授权协议，该字体可以免费用于个人和商业用途。
+详细的授权信息请参考阿里巴巴普惠体官方网站。
+
+其他声明
+-------
+本软件使用的所有第三方库和组件的版权归其各自的所有者所有。如有遗漏或错误，请联系我们进行更正。
+
+联系方式: fbejiate@qq.com 
